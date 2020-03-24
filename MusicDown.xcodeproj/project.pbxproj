@@ -24,6 +24,7 @@
 		F94A2C11241878BE00150F1A /* BaseNSView.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A2C10241878BE00150F1A /* BaseNSView.m */; };
 		F94A2C1724187E1000150F1A /* BaseNSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A2C1624187E1000150F1A /* BaseNSWindowController.m */; };
 		F994E27324259D9900A3ED1A /* MusicPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F994E27224259D9900A3ED1A /* MusicPlayView.m */; };
+		F9D24A1124299956000DCBC1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F9D24A1024299956000DCBC1 /* README.md */; };
 		F9D642B52423045100D3B298 /* DownLoadMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D642B42423045100D3B298 /* DownLoadMgr.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		F94A2C1624187E1000150F1A /* BaseNSWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNSWindowController.m; sourceTree = "<group>"; };
 		F994E27124259D9900A3ED1A /* MusicPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayView.h; sourceTree = "<group>"; };
 		F994E27224259D9900A3ED1A /* MusicPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayView.m; sourceTree = "<group>"; };
+		F9D24A1024299956000DCBC1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F9D642B32423045100D3B298 /* DownLoadMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownLoadMgr.h; sourceTree = "<group>"; };
 		F9D642B42423045100D3B298 /* DownLoadMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadMgr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +148,7 @@
 		F94A2BEE241874A100150F1A = {
 			isa = PBXGroup;
 			children = (
+				F9D24A1024299956000DCBC1 /* README.md */,
 				F94A2BF9241874A100150F1A /* MusicDown */,
 				F94A2BF8241874A100150F1A /* Products */,
 				46039A4F064850766CD3C50E /* Pods */,
@@ -282,6 +285,7 @@
 			files = (
 				F94A2C01241874A500150F1A /* Assets.xcassets in Resources */,
 				F91046412421EDB700C4316D /* DownCompleteVC.xib in Resources */,
+				F9D24A1124299956000DCBC1 /* README.md in Resources */,
 				F910463C2421EDA300C4316D /* DowningVC.xib in Resources */,
 				F94A2C04241874A500150F1A /* Main.storyboard in Resources */,
 			);
@@ -466,6 +470,7 @@
 				CODE_SIGN_ENTITLEMENTS = MusicDown/MusicDown.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
 				INFOPLIST_FILE = MusicDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,6 +490,7 @@
 				CODE_SIGN_ENTITLEMENTS = MusicDown/MusicDown.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
 				INFOPLIST_FILE = MusicDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
