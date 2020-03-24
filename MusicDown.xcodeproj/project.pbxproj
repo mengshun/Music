@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62D6EB6485334AB0776C64B /* libPods-MusicDown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4535CBB9AEF0E35D142FD247 /* libPods-MusicDown.a */; };
+		F91046322421AEF000C4316D /* MusicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F91046312421AEF000C4316D /* MusicViewModel.m */; };
+		F91046352421DF6D00C4316D /* WangyiYinYueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F91046342421DF6D00C4316D /* WangyiYinYueModel.m */; };
+		F910463B2421EDA300C4316D /* DowningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F91046392421EDA300C4316D /* DowningVC.m */; };
+		F910463C2421EDA300C4316D /* DowningVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F910463A2421EDA300C4316D /* DowningVC.xib */; };
+		F91046402421EDB700C4316D /* DownCompleteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F910463E2421EDB700C4316D /* DownCompleteVC.m */; };
+		F91046412421EDB700C4316D /* DownCompleteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F910463F2421EDB700C4316D /* DownCompleteVC.xib */; };
+		F91046442421F01B00C4316D /* DowningView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91046432421F01B00C4316D /* DowningView.m */; };
+		F910464A2421F03F00C4316D /* DownCompleteView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91046492421F03F00C4316D /* DownCompleteView.m */; };
+		F94A2BFC241874A100150F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A2BFB241874A100150F1A /* AppDelegate.m */; };
+		F94A2BFF241874A100150F1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A2BFE241874A100150F1A /* ViewController.m */; };
+		F94A2C01241874A500150F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94A2C00241874A500150F1A /* Assets.xcassets */; };
+		F94A2C04241874A500150F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94A2C02241874A500150F1A /* Main.storyboard */; };
+		F94A2C07241874A500150F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A2C06241874A500150F1A /* main.m */; };
+		F94A2C11241878BE00150F1A /* BaseNSView.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A2C10241878BE00150F1A /* BaseNSView.m */; };
+		F94A2C1724187E1000150F1A /* BaseNSWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A2C1624187E1000150F1A /* BaseNSWindowController.m */; };
+		F994E27324259D9900A3ED1A /* MusicPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F994E27224259D9900A3ED1A /* MusicPlayView.m */; };
+		F9D642B52423045100D3B298 /* DownLoadMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D642B42423045100D3B298 /* DownLoadMgr.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3411862750959475C16EF85C /* Pods-MusicDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicDown.release.xcconfig"; path = "Target Support Files/Pods-MusicDown/Pods-MusicDown.release.xcconfig"; sourceTree = "<group>"; };
+		4535CBB9AEF0E35D142FD247 /* libPods-MusicDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicDown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BE43DFBC6BB012717E361A /* Pods-MusicDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicDown.debug.xcconfig"; path = "Target Support Files/Pods-MusicDown/Pods-MusicDown.debug.xcconfig"; sourceTree = "<group>"; };
+		F91046302421AEF000C4316D /* MusicViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicViewModel.h; sourceTree = "<group>"; };
+		F91046312421AEF000C4316D /* MusicViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicViewModel.m; sourceTree = "<group>"; };
+		F91046332421DF6D00C4316D /* WangyiYinYueModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WangyiYinYueModel.h; sourceTree = "<group>"; };
+		F91046342421DF6D00C4316D /* WangyiYinYueModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangyiYinYueModel.m; sourceTree = "<group>"; };
+		F91046382421EDA300C4316D /* DowningVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DowningVC.h; sourceTree = "<group>"; };
+		F91046392421EDA300C4316D /* DowningVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DowningVC.m; sourceTree = "<group>"; };
+		F910463A2421EDA300C4316D /* DowningVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DowningVC.xib; sourceTree = "<group>"; };
+		F910463D2421EDB700C4316D /* DownCompleteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownCompleteVC.h; sourceTree = "<group>"; };
+		F910463E2421EDB700C4316D /* DownCompleteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownCompleteVC.m; sourceTree = "<group>"; };
+		F910463F2421EDB700C4316D /* DownCompleteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownCompleteVC.xib; sourceTree = "<group>"; };
+		F91046422421F01B00C4316D /* DowningView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DowningView.h; sourceTree = "<group>"; };
+		F91046432421F01B00C4316D /* DowningView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DowningView.m; sourceTree = "<group>"; };
+		F91046482421F03F00C4316D /* DownCompleteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownCompleteView.h; sourceTree = "<group>"; };
+		F91046492421F03F00C4316D /* DownCompleteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownCompleteView.m; sourceTree = "<group>"; };
+		F94A2BF7241874A100150F1A /* MusicDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94A2BFA241874A100150F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F94A2BFB241874A100150F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F94A2BFD241874A100150F1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F94A2BFE241874A100150F1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F94A2C00241874A500150F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F94A2C03241874A500150F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F94A2C05241874A500150F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94A2C06241874A500150F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F94A2C08241874A500150F1A /* MusicDown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusicDown.entitlements; sourceTree = "<group>"; };
+		F94A2C0F241878BE00150F1A /* BaseNSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNSView.h; sourceTree = "<group>"; };
+		F94A2C10241878BE00150F1A /* BaseNSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNSView.m; sourceTree = "<group>"; };
+		F94A2C1524187E1000150F1A /* BaseNSWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNSWindowController.h; sourceTree = "<group>"; };
+		F94A2C1624187E1000150F1A /* BaseNSWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNSWindowController.m; sourceTree = "<group>"; };
+		F994E27124259D9900A3ED1A /* MusicPlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayView.h; sourceTree = "<group>"; };
+		F994E27224259D9900A3ED1A /* MusicPlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayView.m; sourceTree = "<group>"; };
+		F9D642B32423045100D3B298 /* DownLoadMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownLoadMgr.h; sourceTree = "<group>"; };
+		F9D642B42423045100D3B298 /* DownLoadMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadMgr.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F94A2BF4241874A100150F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62D6EB6485334AB0776C64B /* libPods-MusicDown.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32112AFD8D2022977248EE72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4535CBB9AEF0E35D142FD247 /* libPods-MusicDown.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46039A4F064850766CD3C50E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59BE43DFBC6BB012717E361A /* Pods-MusicDown.debug.xcconfig */,
+				3411862750959475C16EF85C /* Pods-MusicDown.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F910462D2421AECF00C4316D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F91046302421AEF000C4316D /* MusicViewModel.h */,
+				F91046312421AEF000C4316D /* MusicViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F910462E2421AED500C4316D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F91046332421DF6D00C4316D /* WangyiYinYueModel.h */,
+				F91046342421DF6D00C4316D /* WangyiYinYueModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F910462F2421AEDA00C4316D /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		F91046362421ED7500C4316D /* Downing */ = {
+			isa = PBXGroup;
+			children = (
+				F91046382421EDA300C4316D /* DowningVC.h */,
+				F91046392421EDA300C4316D /* DowningVC.m */,
+				F910463A2421EDA300C4316D /* DowningVC.xib */,
+				F91046422421F01B00C4316D /* DowningView.h */,
+				F91046432421F01B00C4316D /* DowningView.m */,
+			);
+			path = Downing;
+			sourceTree = "<group>";
+		};
+		F91046372421ED7E00C4316D /* DownComplete */ = {
+			isa = PBXGroup;
+			children = (
+				F910463D2421EDB700C4316D /* DownCompleteVC.h */,
+				F910463E2421EDB700C4316D /* DownCompleteVC.m */,
+				F910463F2421EDB700C4316D /* DownCompleteVC.xib */,
+				F91046482421F03F00C4316D /* DownCompleteView.h */,
+				F91046492421F03F00C4316D /* DownCompleteView.m */,
+			);
+			path = DownComplete;
+			sourceTree = "<group>";
+		};
+		F94A2BEE241874A100150F1A = {
+			isa = PBXGroup;
+			children = (
+				F94A2BF9241874A100150F1A /* MusicDown */,
+				F94A2BF8241874A100150F1A /* Products */,
+				46039A4F064850766CD3C50E /* Pods */,
+				32112AFD8D2022977248EE72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F94A2BF8241874A100150F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94A2BF7241874A100150F1A /* MusicDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F94A2BF9241874A100150F1A /* MusicDown */ = {
+			isa = PBXGroup;
+			children = (
+				F994E27024259D7400A3ED1A /* PlayView */,
+				F9D642B22423040C00D3B298 /* NetManager */,
+				F91046372421ED7E00C4316D /* DownComplete */,
+				F91046362421ED7500C4316D /* Downing */,
+				F94A2C1824188EBF00150F1A /* Main */,
+				F94A2C0E241878A500150F1A /* Base */,
+				F94A2BFA241874A100150F1A /* AppDelegate.h */,
+				F94A2BFB241874A100150F1A /* AppDelegate.m */,
+				F94A2C00241874A500150F1A /* Assets.xcassets */,
+				F94A2C02241874A500150F1A /* Main.storyboard */,
+				F94A2C05241874A500150F1A /* Info.plist */,
+				F94A2C06241874A500150F1A /* main.m */,
+				F94A2C08241874A500150F1A /* MusicDown.entitlements */,
+			);
+			path = MusicDown;
+			sourceTree = "<group>";
+		};
+		F94A2C0E241878A500150F1A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F94A2C0F241878BE00150F1A /* BaseNSView.h */,
+				F94A2C10241878BE00150F1A /* BaseNSView.m */,
+				F94A2C1524187E1000150F1A /* BaseNSWindowController.h */,
+				F94A2C1624187E1000150F1A /* BaseNSWindowController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F94A2C1824188EBF00150F1A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F910462F2421AEDA00C4316D /* DataBase */,
+				F910462E2421AED500C4316D /* Model */,
+				F910462D2421AECF00C4316D /* ViewModel */,
+				F94A2BFD241874A100150F1A /* ViewController.h */,
+				F94A2BFE241874A100150F1A /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F994E27024259D7400A3ED1A /* PlayView */ = {
+			isa = PBXGroup;
+			children = (
+				F994E27124259D9900A3ED1A /* MusicPlayView.h */,
+				F994E27224259D9900A3ED1A /* MusicPlayView.m */,
+			);
+			path = PlayView;
+			sourceTree = "<group>";
+		};
+		F9D642B22423040C00D3B298 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				F9D642B32423045100D3B298 /* DownLoadMgr.h */,
+				F9D642B42423045100D3B298 /* DownLoadMgr.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F94A2BF6241874A100150F1A /* MusicDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94A2C0B241874A500150F1A /* Build configuration list for PBXNativeTarget "MusicDown" */;
+			buildPhases = (
+				7991C3A4FE8B29E44F49D91C /* [CP] Check Pods Manifest.lock */,
+				F94A2BF3241874A100150F1A /* Sources */,
+				F94A2BF4241874A100150F1A /* Frameworks */,
+				F94A2BF5241874A100150F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicDown;
+			productName = MusicDown;
+			productReference = F94A2BF7241874A100150F1A /* MusicDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F94A2BEF241874A100150F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mengshun;
+				TargetAttributes = {
+					F94A2BF6241874A100150F1A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = F94A2BF2241874A100150F1A /* Build configuration list for PBXProject "MusicDown" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F94A2BEE241874A100150F1A;
+			productRefGroup = F94A2BF8241874A100150F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F94A2BF6241874A100150F1A /* MusicDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F94A2BF5241874A100150F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94A2C01241874A500150F1A /* Assets.xcassets in Resources */,
+				F91046412421EDB700C4316D /* DownCompleteVC.xib in Resources */,
+				F910463C2421EDA300C4316D /* DowningVC.xib in Resources */,
+				F94A2C04241874A500150F1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7991C3A4FE8B29E44F49D91C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MusicDown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F94A2BF3241874A100150F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F994E27324259D9900A3ED1A /* MusicPlayView.m in Sources */,
+				F91046322421AEF000C4316D /* MusicViewModel.m in Sources */,
+				F94A2BFF241874A100150F1A /* ViewController.m in Sources */,
+				F91046352421DF6D00C4316D /* WangyiYinYueModel.m in Sources */,
+				F91046442421F01B00C4316D /* DowningView.m in Sources */,
+				F94A2C07241874A500150F1A /* main.m in Sources */,
+				F94A2C1724187E1000150F1A /* BaseNSWindowController.m in Sources */,
+				F910463B2421EDA300C4316D /* DowningVC.m in Sources */,
+				F94A2C11241878BE00150F1A /* BaseNSView.m in Sources */,
+				F910464A2421F03F00C4316D /* DownCompleteView.m in Sources */,
+				F91046402421EDB700C4316D /* DownCompleteVC.m in Sources */,
+				F9D642B52423045100D3B298 /* DownLoadMgr.m in Sources */,
+				F94A2BFC241874A100150F1A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F94A2C02241874A500150F1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94A2C03241874A500150F1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F94A2C09241874A500150F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F94A2C0A241874A500150F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F94A2C0C241874A500150F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59BE43DFBC6BB012717E361A /* Pods-MusicDown.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MusicDown/MusicDown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengshun.MusicDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F94A2C0D241874A500150F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3411862750959475C16EF85C /* Pods-MusicDown.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MusicDown/MusicDown.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MusicDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mengshun.MusicDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F94A2BF2241874A100150F1A /* Build configuration list for PBXProject "MusicDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94A2C09241874A500150F1A /* Debug */,
+				F94A2C0A241874A500150F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94A2C0B241874A500150F1A /* Build configuration list for PBXNativeTarget "MusicDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94A2C0C241874A500150F1A /* Debug */,
+				F94A2C0D241874A500150F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F94A2BEF241874A100150F1A /* Project object */;
+}
